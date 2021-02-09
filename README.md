@@ -1,0 +1,1 @@
+A demo map app built with typescript

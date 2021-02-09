@@ -1,0 +1,25 @@
+<html>
+
+<body>
+    <div id="map" style="height:100%"></div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCniKUTdJ7k4s5Fg5_9hFMnyKybj9_fFq4">
+    </script>
+    <script src="/src.f10117fe.js"></script>
+    <script>function addMapsScript() {
+  if (!document.querySelectorAll("[src=\"".concat(googleMapsUrl, "\"]")).length) {
+    document.body.appendChild(Object.assign(document.createElement('script'), {
+      type: 'text/javascript',
+      src: googleMapsUrl,
+      onload: function onload() {
+        return doMapInitLogic();
+      }
+    }));
+  } else {
+    this.doMapInitLogic();
+  }
+}
+
+addMapsScript();</script>
+</body>
+
+</html>
